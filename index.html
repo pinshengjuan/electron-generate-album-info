@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
+    <title>Generate roll info</title>
+  </head>
+  <body>
+        <!-- You can also require other files to run in this process -->
+        <label for="txt-file-name">Text file name </label>
+        <input required type="text" id="txt-file-name" name="txt-file-name" placeholder="_20200516">
+        <br><br>
+        
+        <label for="camera-name">Camera name </label>
+        <input required type="text" id="camera-name" name="camera-name" placeholder="Fujica ST801">
+        <br><br>
+        
+        <label for="roll-name">Roll name </label>
+        <input required type="text" id="roll-name" name="roll-name" placeholder="Fujifilm C200">
+        <br><br>
+
+        <button type="submit" id="mybutton">submit</button>
+
+      </body>
+      <script type="module" src="./renderer.js"></script>
+</html>

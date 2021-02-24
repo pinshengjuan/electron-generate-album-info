@@ -1,0 +1,22 @@
+{
+  "name": "electron-generate-album-info",
+  "version": "0.0.1",
+  "description": "An Electron application that generate album information",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/pinshengjuan/electron-generate-album-info",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Pinshengjuan",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^11.3.0"
+  }
+}
