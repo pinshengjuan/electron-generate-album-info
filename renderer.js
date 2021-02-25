@@ -8,7 +8,7 @@
 const ipcRenderer = require('electron').ipcRenderer;
 const remote = require('electron').remote;
 
-function writeUni(filepath, fileString) {
+function writeTextFile(filepath, fileString) {
   return new Promise((resolve) => {
     var util = require('util');
     var fs = require('fs');
@@ -36,7 +36,7 @@ btn.addEventListener('click', (event) => {
   folderPath = folderPath.toString().split(',')[1]
   const txtFolderPath = folderPath + '/' + txtFileName.value + '.txt'
 
-  writeUni(txtFolderPath, fileString).then(() => {
+  writeTextFile(txtFolderPath, fileString).then(() => {
     // channel name: close-main-widow
     ipcRenderer.send('close-main-window');
   })
