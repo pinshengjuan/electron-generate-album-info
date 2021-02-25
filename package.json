@@ -1,6 +1,6 @@
 {
   "name": "electron-generate-album-info",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An Electron application that generate album information",
   "main": "main.js",
   "scripts": {
