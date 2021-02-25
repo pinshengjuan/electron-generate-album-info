@@ -4,6 +4,6 @@ An Electron app that genearte albun information(camera, roll) inside album folde
 Edit _.exe_ path under _ContextMenu.reg_ then double click _ContextMenu.reg_ to register 
 
 ## Usage
-Right click on album folder, select "Gen Album Info", type text file name, camera info and roll info then press sumbmit
+Right click on album folder, select "Gen Album Info", type text file name, camera info and roll info then press submit
 
 ![](img/img.gif)
